@@ -1,0 +1,42 @@
+js-docs-mdn *js-docs-mdn.txt*
+
+Author: Anmol <https://withanmol.com>
+Homepage: <https://github.com/anmol-fzr/js-docs-mdn.nvim>
+
+===============================================================================
+INTRODUCTION                                                 *js-docs-mdn.nvim*
+
+js-docs-mdn.nvim lets you quickly open JS Docs with mozilla,
+supporting fzf-lua and telescope.nvim.
+
+Author: Anmol <https://withanmol.com>
+
+===============================================================================
+SETUP                                                     *js-docs.mdn.setup()*
+>lua
+    require('js-docs-mdn').setup(config)
+<
+Parameters: ~
+
+    {config} `(table)`: table containing configuration for js-docs-mdn.
+                      Defaults shown below.
+
+Usage: ~
+>lua
+    require('js-docs-mdn').setup({
+        -- defaults to available picker: 'fzf-lua' or 'telescope'
+        use = 'fzf-lua'
+        -- How the mozilla url is opened.
+        -- Configured by default based on OS:
+        open_url = 'xdg-open %s' -- UNIX
+              -- = 'open %s'     -- OSX
+              -- = 'start %s'    -- Windows
+    })
+<
+===============================================================================
+COMMANDS                                                 *js-docs-mdn.commands*
+
+:JSDocs            Browse JS Docs using the configured picker.
+
+-------------------------------------------------------------------------------
+vim:tw=80:ft=help:
