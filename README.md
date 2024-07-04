@@ -2,6 +2,9 @@
 
 Quickly open JS Docs with the help of [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP), including [telescope](https://github.com/barrett-ruth/telescope-http.nvim/) and [fzf-lua](https://github.com/ibhagwan/fzf-lua) integrations.
 
+<img src="https://github.com/anmol-fzr/js-docs-mdn.nvim/blob/main/js-docs-mdn.png" >
+<img src="https://github.com/anmol-fzr/js-docs-mdn.nvim/blob/main/js-docs-mdn_search.png" >
+
 ## Installation
 
 Install via your favorite package manager, like [lazy](https://github.com/folke/lazy.nvim):
