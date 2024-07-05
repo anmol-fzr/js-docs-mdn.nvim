@@ -1,6 +1,6 @@
 # js-docs-mdn.nvim
 
-Quickly open JS Docs with the help of [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP), including [telescope](https://github.com/barrett-ruth/telescope-http.nvim/) and [fzf-lua](https://github.com/ibhagwan/fzf-lua) integrations.
+Quickly open JS Docs with the help of [mozilla](https://developer.mozilla.org/en-US/docs/Web/HTTP), including [telescope](https://github.com/nvim-telescope/telescope.nvim) and [fzf-lua](https://github.com/ibhagwan/fzf-lua) integrations.
 
 <img src="https://github.com/anmol-fzr/js-docs-mdn.nvim/blob/main/js-docs-mdn.png" >
 <img src="https://github.com/anmol-fzr/js-docs-mdn.nvim/blob/main/js-docs-mdn_search.png" >
@@ -48,7 +48,3 @@ or in lua:
 ```lua
 require('js-docs-mdn').js_docs_mdn()
 ```
-
-## Migration
-
-If migrating from [telescope-http.nvim](https://github.com/barrett-ruth/telescope-http.nvim), follow the above instructions&mdash;no telescope-specific config is necessary.
